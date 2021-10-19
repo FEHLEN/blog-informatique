@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Oups ! Le serveur ne répond pas</h1>
+
+    <p>
+        Nous avons détecté une erreur serveur. Veuillez recommence ultérieurement
+        ou <a href="{{ path('home') }}">retournez à la page accueil</a>.
+    </p>
+{% endblock %}

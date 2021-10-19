@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Oups ! Accès à la page impossible</h1>
+
+    <p>
+        La page que vous souhaitez demande une authentification. Pour accéder à la ressources veuillez entrer un identifiant
+        ou <a href="{{ path('home') }}">retournez à la page accueil</a>.
+    </p>
+{% endblock %}
